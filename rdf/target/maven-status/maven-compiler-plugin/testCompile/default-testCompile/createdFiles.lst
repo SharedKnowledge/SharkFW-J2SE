@@ -1,0 +1,4 @@
+net/sharkfw/knowledgeBase/rdf/TestRDFKB.class
+net/sharkfw/knowledgeBase/rdf/TestImportRDFKB.class
+net/sharkfw/knowledgeBase/rdf/TestRDFKBSparql.class
+net/sharkfw/knowledgeBase/rdf/TestUtils.class
