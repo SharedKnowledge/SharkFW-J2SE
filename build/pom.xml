@@ -19,6 +19,14 @@
             sharkfw-${project.artifactId}-${project.parent.version}
         </finalName>
 	<plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-source-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-javadoc-plugin</artifactId>
+    </plugin>
 	<plugin>
   <artifactId>maven-assembly-plugin</artifactId>
   <configuration>
@@ -72,5 +80,4 @@
           <scope>test</scope>
       </dependency>
     </dependencies>
-
 </project>
