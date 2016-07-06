@@ -18,12 +18,22 @@
         <finalName>
             sharkfw-${project.artifactId}-${project.parent.version}
         </finalName>
+         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+            </plugin>
+        </plugins>    
     </build>
 
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>core</artifactId>
+            <artifactId>sharkfw-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
